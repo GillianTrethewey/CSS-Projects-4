@@ -18,6 +18,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--tan);
+  margin: 0 auto;
 }
 
 header {
@@ -54,6 +55,7 @@ header h1 {
   flex-direction: column;
   min-height: 450px;
   max-width: 1128px;
+  margin: 0 auto;
 }
 
 .designs__description {
