@@ -76,7 +76,6 @@ header {
 
 nav {
   font-size: 0.9rem;
-  //border: 2px solid pink;
   justify-content: space-between;
   align-items: center;
   /* width: 100%; alternative method to grow shrink */
@@ -100,6 +99,7 @@ nav {
 
 .nav__list--secondary {
 }
+
 .nav__item {
   margin: 1em;
 }
@@ -163,4 +163,20 @@ nav {
   text-align: center;
   color: #fff;
   background-color: #136c72;
+}
+
+@media (max-width: 800px) {
+  .row {
+    display: block;
+  }
+  .hero__text,
+  .hero__img,
+  .primary-content,
+  .sidebar {
+    width: 100%;
+  }
+
+  .hero__img {
+    margin-top: 2em;
+  }
 }
